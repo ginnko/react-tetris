@@ -101,3 +101,7 @@ const unit = {
 };
 
 module.exports = unit;
+
+/**
+ *作者用了很多立即执行函数
+ */

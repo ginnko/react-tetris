@@ -98,3 +98,6 @@ module.exports = {
   music,
 };
 
+/**
+ *没有看到关于source.start(param1, param2, param3)的详细说明
+ */

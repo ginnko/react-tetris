@@ -125,3 +125,23 @@ module.exports = {
   lan,
   i18n: i18n.data,
 };
+
+/**
+ *补充说明各个常量的作用
+ *blockShape:形状，对象元素是二元数组
+ *oring:
+ *blockType:类型
+ *speeds:速度
+ *delays:
+ *fillLine:
+ *blankLine:用0表示空，由10个0组成的数组表示一行为空
+ *blankMatrix:20行blankLine组成了空白Matrix
+ *clearPoints:
+ *StorageKey:感觉是在localstorage中存储信息的数据库名
+ *lastRecord:从localstorage中获取上一局的数据，函数中进行了解码
+ *maxPoint:控制最大分数
+ *eachLines:每消除eachLines行便增加速度
+ *transform:
+ *lan:用来选择显示的语言
+ *i18n:页面上显示的内容
+ */
