@@ -133,6 +133,7 @@ const states = {
       return;
     }
     const state = store.getState();
+    console.log(state);
     if (state.get('cur') && !state.get('reset') && !state.get('pause')) {
       states.auto();
     }
