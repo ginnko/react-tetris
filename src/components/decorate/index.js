@@ -1,3 +1,10 @@
+/**
+ * 2018.5.27
+ * 在看index.js in components/decorate
+ * 有用到index.less in components/decorate 和 index.less in containers
+ * 看到index.less in containers中关于&:after和&:before中的使用表示惊讶和不解
+ */
+
 import React from 'react';
 import cn from 'classnames';
 
